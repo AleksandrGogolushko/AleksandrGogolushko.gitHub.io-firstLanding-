@@ -73,7 +73,7 @@ header {
 }
 
 .headr_text {
-  padding-top: 6vmax;
+  padding-top: 4vmax;
 }
 .logo {
   margin-left: 12%;
@@ -398,15 +398,15 @@ main {
 .reservation label {
   text-transform: capitalize;
   color: #fb5231;
-  font-size: 20px;
+  font-size:1vmax;
 }
 
 .reservation .form-control {
   display: block;
   width: 100%;
-  height: 35px;
+  height: 20%;
   padding: 0.375rem 0.75rem;
-  font-size: 1rem;
+  font-size: 1vmax;
   font-weight: 400;
   line-height: 1.5;
   color: #383838;
@@ -806,8 +806,8 @@ p {
 
   .headr_text {
     position: absolute;
-    top: 38%;
-  }
+    top: 35vmax;
+}
 
   nav {
     margin-bottom: 1%;
@@ -833,7 +833,7 @@ p {
     background: linear-gradient(0deg, rgba(0,0,0,0.8883928571428571) 22%, rgba(0,0,0,0.8379726890756303) 33%, rgba(0,0,0,0.7931547619047619) 45%, rgba(0,0,0,0.6783088235294117) 57%, rgba(0,0,0,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
   }
-  
+
   .story {
     padding-bottom: 60%;
     padding-top: 50%;
@@ -1046,6 +1046,35 @@ p {
   }
 }
 
+@media screen and (max-width: 575px) and (orientation: landscape) {
+  nav {
+    margin-bottom: 2vw;
+    margin-right: 0px;
+}
+  .headr_text {
+    padding-top: 1vmax;
+}
+  .navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+    border-bottom: 4px solid #FCA546;
+    border-left: 1px solid #FCA546;
+    border-right: 1px solid #FCA546;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-bottom: 4%;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(0deg, rgba(0,0,0,0.8883928571428571) 22%, rgba(0,0,0,0.8379726890756303) 33%, rgba(0,0,0,0.7931547619047619) 45%, rgba(0,0,0,0.6783088235294117) 57%, rgba(0,0,0,0) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(0,0,0,0.8883928571428571) 22%, rgba(0,0,0,0.8379726890756303) 33%, rgba(0,0,0,0.7931547619047619) 45%, rgba(0,0,0,0.6783088235294117) 57%, rgba(0,0,0,0) 100%);
+    background: linear-gradient(0deg, rgba(0,0,0,0.8883928571428571) 22%, rgba(0,0,0,0.8379726890756303) 33%, rgba(0,0,0,0.7931547619047619) 45%, rgba(0,0,0,0.6783088235294117) 57%, rgba(0,0,0,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+  }
+}
+
 @media screen and (max-width: 823px) and (orientation: landscape) {
   .centerTitle {
     font-size: 6vw;
@@ -1083,7 +1112,7 @@ p {
     margin-top: -20px;
   }
   nav {
-    margin-bottom: 8vw;
+    margin-bottom: 6vw;
     margin-right: 0px;
   }
 
