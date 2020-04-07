@@ -833,7 +833,6 @@ p {
     background: linear-gradient(0deg, rgba(0,0,0,0.8883928571428571) 22%, rgba(0,0,0,0.8379726890756303) 33%, rgba(0,0,0,0.7931547619047619) 45%, rgba(0,0,0,0.6783088235294117) 57%, rgba(0,0,0,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
   }
-
   .story {
     padding-bottom: 60%;
     padding-top: 50%;
