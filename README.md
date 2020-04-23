@@ -1,2 +1,2 @@
-# AleksandrGogolushko.gitHub.io-firstLanding-
+# GRANDRESTAURANT
 GRANDRESTAURANT landing pages
