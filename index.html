@@ -4,23 +4,24 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="stylesheet" href="./src/css/animate.min.css">
     <link rel="stylesheet" href="./src/css/bootstrap.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css">
     <link rel="stylesheet" href="./src/css/newstyle.css">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC&family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Amatic+SC&family=Dancing+Script:wght@500&family=Girassol&family=Homemade+Apple&family=Cardo:wght@700&display=swap" rel="stylesheet">
     <title>Grandrestaurant</title>
   </head>
   <body>
     <header id="home">
       <nav class="navbar navbar-expand-sm">
-        <div class="logo">
+        <div class="logo wow fadeInLeft">
         <img class="navbar-brand" src="./src/images/logo.png" alt="logo">
       </div>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav wow fadeIn">
           <li class="nav-item">
             <a class="nav-link" href="#home">home</a>
           </li>
@@ -43,9 +44,9 @@
       </div>
       </nav>
       <section class="headr_text">
-       <h1 class="centerTitle">Grandrestaurant</h1> 
-       <img class="decoration" src="./src/images/Decoration11.png" alt="Decoration"> 
-       <p class="center_discription">
+       <h1 class="centerTitle wow fadeInDown">Grandrestaurant</h1> 
+       <img class="decoration wow zoomIn" src="./src/images/Decoration11.png" alt="Decoration"> 
+       <p class="center_discription wow fadeInUp">
         It is a very cosy place with a quiet and relaxing atmosphere. In
         front of the entrance there is a summer terrace where guests can
         enjoy a light business lunch or a cup of delicious coffee. Guests
@@ -59,16 +60,16 @@
         <div class="container">
           <div class="row">
             <div class="col content">
-              <h2 class="discover_story">discover our story</h2>
-              <img class="decor" src="./src/images/Divider.png" alt="decoration">
-              <p class="about_us">
+              <h2 class="discover_story wow fadeInRight" data-wow-offset="100">discover our story</h2>
+              <img class="decor wow fadeIn" src="./src/images/Divider.png" data-wow-offset="100" alt="decoration">
+              <p class="about_us wow fadeInLeft" data-wow-offset="100">
                 If you’ve been to one of our restaurants, you’ve seen – and
                 tasted – what keeps our customers coming back for more. Perfect
                 materials and freshly baked food, delicious Lambda cakes,
                 muffins, and gourmet coffees make us hard to resist! Stop in
                 today and check us out!
               </p>
-              <img class="sheff" src="./src/images/shefFF.png" alt="sheff">
+              <img class="sheff wow zoomIn" data-wow-offset="100" src="./src/images/shefFF.png" alt="sheff">
             </div>
           </div>
         </div>
@@ -77,10 +78,10 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <h2>singatures recipes</h2>
+              <h2 class="wow fadeInDown" data-wow-offset="100">singatures recipes</h2>
             </div>
           </div>
-          <div class="row ingredients_text">
+          <div class="row ingredients_text wow fadeInUp" data-wow-offset="100">
             <p>
               Food is cooked just in front of you and served by the chefs. Our
               chef brings all ingredients to the table and starts a theatrical
@@ -95,11 +96,11 @@
         <div class="container">
           <div class="row">
             <div class="col">
-              <h2>our menu</h2>
+              <h2 class="wow zoomIn" data-wow-offset="100">our menu</h2>
             </div>
           </div>
-          <div class="row list_menu">
-            <div class="col">
+          <div class="row list_menu wow zoomIn" data-wow-offset="100">
+            <div class="col wow fadeInLeft" data-wow-offset="100">
               <ul>
                 <li>
                   <span class="price">20$</span>
@@ -135,7 +136,7 @@
                 <li></li>
               </ul>
             </div>
-            <div class="col right_list">
+            <div class="col right_list wow fadeInRight" data-wow-offset="100">
               <ul>
                 <li>
                   <span class="price">18$</span>
@@ -157,8 +158,7 @@
                   <span class="price">36$</span>
                   <p class="name_dish">GARLIC KING PRAWNS</p>
                   <p class="ingrid">
-                    Italian sausage, petite diced tomatoes, chicken broth,
-                    cheese.
+                    Italian sausage, petite diced tomatoes, chicken broth.
                   </p>
                 </li>
                 <li>
@@ -178,23 +178,23 @@
       <section id="reviews" class="reviews">
         <div class="container">
           <div class="row">
-            <div class="col">
+            <div class="col wow fadeInDown" data-wow-offset="100">
               <img class="cake" src="./src/images/Layer14.png" alt="docoration">
               <h2>guests Reviews</h2>
               <img class="decor" src="./src/images/Divider.png" alt="decoration">
             </div>
           </div>
-          <div id="demo" class="carousel slide" data-ride="carousel" data-interval="12000">
+          <div id="demo" class="carousel" data-ride="carousel" data-interval="12000">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row">
-                  <p class="comments">
+                  <p class="comments slide wow zoomIn" data-wow-offset="100">
                     You will be so happy, this place is delicious and never fails to make my taste buds  jump for joy!
                   Come try you will not be disappointed.  Check out their lunch specials too, special prices certain times and days of the week are an awesome deal.
                     Dinner prices are not overly pricey with great portion sizes
                   </p>
                 </div>
-                <div class="row rating">
+                <div class="row rating slide wow fadeInUp" data-wow-offset="100">
                   <div class="col">
                     <p class="author">jhon hasegools</p>
                     <img class="stars" src="./src/images/iconfinder_star_285661.png" alt="stars">
@@ -203,7 +203,7 @@
             </div>
                 <div class="carousel-item">
                   <div class="row">
-                    <p class="comments">
+                    <p class="comments slide">
                       I heartily recommend this restaurant to you. The quality
                       of service they provided was amazing! Their foods and
                       drinks were excellent. They deserve great ratings! I can't
@@ -212,7 +212,7 @@
                       assistance and food. The best of the best in town.
                     </p>
                   </div>
-                  <div class="row rating">
+                  <div class="row rating slide">
                     <div class="col">
                       <p class="author">Eloise Benson</p>
                       <img class="stars" src="./src/images/iconfinder_star_285661.png" alt="stars">
@@ -221,7 +221,7 @@
                 </div>
                   <div class="carousel-item">
                     <div class="row">
-                      <p class="comments">
+                      <p class="comments slide">
                         I'm a food lover, and I've been through too many
                         restaurants and tried different cuisine, but this
                         restaurant is unique, and the food here is extra
@@ -231,17 +231,17 @@
                         those food lovers. HIGHLY RECOMMENDED!
                       </p>
                     </div>
-                    <div class="row rating">
+                    <div class="row rating slide">
                       <div class="col">
                         <p class="author">Darrell Perkins</p>
                         <img class="stars" src="./src/images/iconfinder_star_285661.png" alt="stars">
                       </div>
                     </div>
                   </div>
-                  <a class="carousel-control-prev carousel" href="#demo" data-slide="prev">
+                  <a class="carousel-control-prev carousel wow fadeInLeft" data-wow-offset="100" href="#demo" data-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                   </a>
-                  <a class="carousel-control-next carousel" href="#demo" data-slide="next">
+                  <a class="carousel-control-next carousel wow fadeInRight" data-wow-offset="100" href="#demo" data-slide="next">
                     <span class="carousel-control-next-icon"></span>
                   </a>
                 </div>
@@ -251,11 +251,11 @@
       <section id="reservation" class="reservation">
         <div class="container-fluid">
             <div class="row justify-content-center">
-             <div class="col-md-4 col-lg-6 imgleft">
+             <div class="col-md-4 col-lg-6 imgleft wow fadeInUp" data-wow-offset="100">
                  <img src="./src/images/image.png" alt="fructs">
                  <img src="./src/images/Layer5.png" alt="dish">
              </div>
-             <div class="col-md-6 col-lg-5 right">
+             <div class="col-md-6 col-lg-5 right wow fadeInRight" data-wow-offset="100">
                  <h2>Just the right food</h2>
                  <img class="decor" src="./src/images/Divider.png" alt="decoration">
                <div class="discript">
@@ -290,13 +290,13 @@
       <footer id="contact">
           <div class="container-fluid">
               <div class="row">
-                  <div class="col phone_content">
+                  <div class="col phone_content wow fadeInLeft">
                     <img src="./src/images/phone.png" alt="phone">
                     <p><a href="tel:33332221111">3333 222 1111</a></p>
                     <p><a href="tel:18001234">1 800 1234 Hello</a></p>
                   </div>
-                  <div class="col social">
-                      <img src="./src/images/logo.png" alt="logo">
+                  <div class="col social wow fadeIn">
+                      <img src="./src/images/logo.png" class="wow fadeInDown" alt="logo">
                       <div class="icon_s">
                         <ul class="social_list">
                           <li class="conteiner_social">
@@ -322,7 +322,7 @@
                         </ul>
                     </div>
                   </div>
-                <div class="col addres">
+                <div class="col addres wow fadeInRight">
                     <img src="./src/images/gps.png" alt="addres">
                     <a href="https://goo.gl/maps/YvJK9ifmvSCUcNJC8" target="_blank"> 
                     <p>99 Barnard St - Suite 111</p>
@@ -338,5 +338,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
     <script src="./src/js/scripts.js"></script>
+    <script src="./src/js/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </body>
 </html>
