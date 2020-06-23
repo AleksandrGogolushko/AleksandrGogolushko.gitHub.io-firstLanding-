@@ -1,4 +1,4 @@
 # GRANDRESTAURANT
-GRANDRESTAURANT landing pages
+GRANDRESTAURANT landing page
 ----------------------------------------------
-https://aleksandrgogolushko.github.io/Grandrestaurant/
+Demo: https://aleksandrgogolushko.github.io/Grandrestaurant/
