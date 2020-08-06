@@ -1,5 +1,4 @@
-# GRANDRESTAURANT
-***GRANDRESTAURANT*** landing page
+***Grandrestaurant*** landing page
 ----------------------------------------------
 Demo: https://aleksandrgogolushko.github.io/Grandrestaurant/
 ______________________________________________________________
