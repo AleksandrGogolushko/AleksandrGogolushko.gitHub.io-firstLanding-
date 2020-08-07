@@ -112,8 +112,6 @@
   animation-name: flash;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
-
 @-webkit-keyframes pulse {
   from {
     -webkit-transform: scale3d(1, 1, 1);
@@ -490,7 +488,7 @@
   animation-name: tada;
 }
 
-/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
 
 @-webkit-keyframes wobble {
   from {
@@ -6803,9 +6801,9 @@ input[type="button"].btn-block {
 
 .collapsing {
   position: relative;
-  height: 0;
-  overflow: hidden;
-  transition: height 0.35s ease;
+   height: 0;
+   overflow: hidden;
+  transition: all 0.5s;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -14029,6 +14027,7 @@ main {
   background-image: url("../image/bg22.png");
   padding-bottom: 6%;
   padding-top: 6%;
+  background-attachment: fixed;
 }
 
 .ingridient h2 {
